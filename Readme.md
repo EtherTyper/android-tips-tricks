@@ -112,7 +112,7 @@ Contributions are always welcome, hoping people will help me in growing this. To
 
   Android Studio/IntelliJ havea special kind of code completion which allows you to write code specific to a field
   + `<expr>.null` will auto complete to `if(<expr> == null)`
-  + `<expr>.nootnull` will auto complete to `if(<expr> != null)`
+  + `<expr>.notnull` will auto complete to `if(<expr> != null)`
   + `<expr>.var` will auto complete to `T name = <expr>`
   + `<expr>.field` will auto complete to create a global field variable `field = <expr>`
   + `<ArrayExpr>.for` will auto complete to `for(T item : <Arrayexpr>)`
@@ -151,7 +151,8 @@ This one needs special mention due to how useful it is. It basically is a window
 #### ***[DeskDock](https://play.google.com/store/apps/details?id=com.floriandraschbacher.deskdock.free)***
 Yes, vysor was great, but if you want to share your keyboard and mouse directly to your Android device, then this app is for you. It enables you to control your Android device as if it was part of your desktop computer. The [FREE version](https://play.google.com/store/apps/details?id=com.floriandraschbacher.deskdock.free) includes the use of computer mouse, while the [PRO version](https://play.google.com/store/apps/details?id=com.floriandraschbacher.deskdock.pro) includes features such as use of keyboard. This is useful where you can test your app without your hands ever leaving your keyboard.
 
--
+---
+
 ### ***Make better choices while coding***
 
 + **Use OkHttp over HttpUrlConnect**
